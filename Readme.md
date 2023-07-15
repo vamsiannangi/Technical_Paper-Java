@@ -60,7 +60,7 @@ double balance = account.getBalance();
 ### 3.Inheritance
 
 Inheritance allows the creation of new classes (derived classes) based on existing classes (base or parent classes). Derived classes inherit properties and behaviors from their parent classes, promoting code reuse and establishing an "is-a" relationship.
-![Image]![Alt text](inheritence.jpg)
+
 
 
 
