@@ -1,13 +1,13 @@
-#Technical Paper
-##Topic
+# Technical Paper
+## Topic
 
 You joined a new project. The project codebase is difficult to manage. Your team lead has asked to study a few concepts and refactor the codebase. Create a report on OOP with code samples.
 One of the best possible solutions to the above-mentioned scenario that can help developers to manage the codebase is to implement OOP paradigm.
 
-##Introduction
+## Introduction
 As per my team lead's instructions, I have studied various concepts and proposed refactoring strategies to improve the codebase. This report focuses on the application of Object-Oriented Programming (OOP) principles in refactoring the project codebase. By adhering to these principles, we aim to enhance code organization, reusability, and maintainability.
-##Key Concepts of OOP
-###1.Classes and Objects
+## Key Concepts of OOP
+### 1. Classes and Objects
 Classes are blueprints or templates that define the structure and behavior of objects. They encapsulate data (attributes) and functions (methods) related to a specific concept or entity. Objects are instances of classes, representing real-world entities or concepts.
 ```java
  // Class definition
@@ -35,7 +35,7 @@ public class Main {
 
 ```
 
-###2.Encapsulation
+### 2.Encapsulation
 
 Encapsulation ensures that the internal details of an object are hidden and can only be accessed through well-defined public interfaces. It combines data and methods within a class, protecting the data from external modifications.
 
@@ -57,7 +57,7 @@ account.deposit(1000);
 double balance = account.getBalance();
 
 ```
-###3.Inheritance
+### 3.Inheritance
 
 Inheritance allows the creation of new classes (derived classes) based on existing classes (base or parent classes). Derived classes inherit properties and behaviors from their parent classes, promoting code reuse and establishing an "is-a" relationship.
 ![Image]![Alt text](inheritence.jpg)
@@ -85,7 +85,7 @@ myDog.bark();
 
 ```
 
-###4.Polymorphism
+### 4.Polymorphism
 
 Polymorphism allows objects of different types to be treated interchangeably through a common interface. It enables methods to be overridden in derived classes, providing different implementations while maintaining a consistent interface.
 ```java
@@ -106,7 +106,7 @@ Shape myShape = new Circle(); // Polymorphic assignment
 myShape.draw(); // Calls overridden method in Circle class
 
 ```
-###5.Abstraction
+### 5.Abstraction
 Abstraction focuses on capturing the essential features and behaviors of a concept while hiding unnecessary implementation details. Abstract classes and interfaces provide common contracts that subclasses adhere to, enabling code reuse and modular design.
 ```java
 abstract class Vehicle {
@@ -135,7 +135,7 @@ myVehicle.stop();
 
 
 
-###Conclusion
+### Conclusion
 
 Object-Oriented Programming provides a powerful set of concepts and principles for designing and developing software systems. By leveraging classes, objects, encapsulation, inheritance, polymorphism, abstraction, and composition, developers can create modular, maintainable, and extensible code. This report presented an overview of these OOP concepts with code samples to demonstrate their usage. By embracing OOP, developers can enhance code organization, promote code reuse, and build robust and scalable applications.
 
